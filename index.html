@@ -12,9 +12,10 @@
 			<!-- NAVBAR -->
 			<nav>
 				<ul>
-					<li><a href="#hero">Home</a></li>
-					<li><a href="#">Project</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#pendidikan">About</a></li>
+					<li><a href="#project">Project</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<!-- HERO -->
@@ -44,7 +45,7 @@
 		<!-- MAIN CONTENT -->
 		<main>
 			<!-- PENDIDIKAN -->
-			<section>
+			<section id="pendidikan">
 				<div class="pendidikan">
 					<h1>Riwayat Pendidikan</h1>
 					<div class="item">
@@ -85,7 +86,7 @@
 					<p class="subtitle">
 						Pengalaman magang dan project yang pernah saya ikuti
 					</p>
-
+					<!-- Item 1 -->
 					<div class="item">
 						<div class="nomor">1</div>
 						<div class="detail">
@@ -99,7 +100,7 @@
 						</div>
 						<div class="durasi">Durasi - 4 bulan</div>
 					</div>
-
+					<!-- Item 2 -->
 					<div class="item">
 						<div class="nomor">2</div>
 						<div class="detail">
@@ -110,7 +111,7 @@
 						</div>
 						<div class="durasi">Durasi - 4 bulan</div>
 					</div>
-
+					<!-- Item 3 -->
 					<div class="item">
 						<div class="nomor">3</div>
 						<div class="detail">
@@ -123,7 +124,7 @@
 						</div>
 						<div class="durasi">Durasi - 3 bulan</div>
 					</div>
-
+					<!-- Item 4 -->
 					<div class="item">
 						<div class="nomor">4</div>
 						<div class="detail">
@@ -136,6 +137,7 @@
 						</div>
 						<div class="durasi">Durasi - 3 bulan</div>
 					</div>
+					<!-- Item 5 -->
 					<div class="item">
 						<div class="nomor">5</div>
 						<div class="detail">
@@ -149,6 +151,7 @@
 						</div>
 						<div class="durasi">Durasi - Sekarang</div>
 					</div>
+					<!-- Item 6 -->
 					<div class="item">
 						<div class="nomor">6</div>
 						<div class="detail">
@@ -159,6 +162,7 @@
 						</div>
 						<div class="durasi">Durasi - Sekarang</div>
 					</div>
+					<!-- Item 7 -->
 					<div class="item">
 						<div class="nomor">7</div>
 						<div class="detail">
@@ -175,10 +179,9 @@
 				</div>
 			</section>
 			<!-- PROJECT -->
-			<section class="project">
+			<section id="project" class="project">
 				<h1>Projects</h1>
 				<p class="subtitle">Project yang pernah dan sedang Saya kerjakan</p>
-
 				<!-- Project 1 -->
 				<div class="item">
 					<div class="item-image">
@@ -192,7 +195,6 @@
 						>
 					</div>
 				</div>
-
 				<!-- Project 2 -->
 				<div class="item reverse">
 					<div class="item-image">
@@ -207,7 +209,6 @@
 						<a href="#" class="details">See Details →</a>
 					</div>
 				</div>
-
 				<!-- Project 3 -->
 				<div class="item">
 					<div class="item-image">
@@ -222,8 +223,48 @@
 			</section>
 		</main>
 		<!-- FOOTER -->
-		<footer>
-			<div class="contact"></div>
+		<footer class="contact-footer" id="contact">
+			<div class="contact-container">
+				<h2><span>Halo!</span> sampaikan ide bagus Anda</h2>
+				<p class="subtitle">
+					Punya ide yang bagus? Hubungi Saya dan mari berdiskusi.
+				</p>
+
+				<!-- Contact Form -->
+				<form class="contact-form">
+					<div class="form-row">
+						<input type="text" name="name" placeholder="Nama*" required />
+						<input type="email" name="email" placeholder="Email*" required />
+					</div>
+
+					<input type="text" name="company" placeholder="Nama perusahaan" />
+
+					<textarea
+						name="message"
+						placeholder="Katakan sesuatu..."
+						required
+					></textarea>
+
+					<button type="submit" class="send-btn">Kirim</button>
+					<p class="note">Akan saya hubungi dalam 24 jam</p>
+				</form>
+
+				<!-- Sosmed -->
+				<div class="social-links">
+					<a href="https://github.com/raihanaiooo" target="_blank">GitHub</a>
+					<a href="https://www.instagram.com/raihnaaaz/" target="_blank"
+						>Instagram</a
+					>
+					<a
+						href="https://www.linkedin.com/in/raihana-aisha-az-zahra/"
+						target="_blank"
+						>LinkedIn</a
+					>
+					<a href="https://wa.me/6282130308398" target="_blank">WhatsApp</a>
+				</div>
+
+				<p class="copyright">© 2024 Personal Portofolio</p>
+			</div>
 		</footer>
 	</body>
 </html>
