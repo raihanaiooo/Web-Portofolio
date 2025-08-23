@@ -1,7 +1,7 @@
 # 🌟 Raihana Aisha - Web Portofolio
 
 ## 📄 Deskripsi Proyek
-Web portofolio ini dibuat sebagai **media showcase diri** untuk keperluan melamar kerja atau freelance.  
+Web portofolio ini dibuat untuk memenuhi tugas Project 3. Selain itu, web ini dapat digunakan sebagai **media showcase diri** untuk keperluan melamar kerja atau freelance.  
 Di dalamnya terdapat informasi penting seperti:  
 
 - 👤 **Data diri singkat**  
@@ -36,9 +36,7 @@ Tujuannya adalah memberikan **kesan profesional dan mudah diakses** bagi calon k
 
 ## 🎨 Tampilan
 ![Demo Hero Section](assets/hero-demo.png)  
-![Demo Form Kontak](assets/contact-demo.png)  
-
-*(Ganti gambar dengan screenshot web kamu jika ada)*
+![Demo Form Kontak](assets/projects-demo.png)  
 
 ---
 
@@ -46,7 +44,6 @@ Tujuannya adalah memberikan **kesan profesional dan mudah diakses** bagi calon k
 Hasil akhir proyek bisa diakses melalui link berikut:  
 
 [🌐 Lihat Web Portofolio](#)  
-*(Ganti `#` dengan URL Netlify atau hosting lainnya)*  
 
 ---
 
