@@ -1,6 +1,9 @@
 html {
 	scroll-behavior: smooth;
 }
+p {
+	text-align: justify;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -66,7 +69,6 @@ li a:hover {
 	background-color: #fff;
 	padding: 1.5px;
 	border-radius: 10px;
-	text-align: justify;
 	line-height: 1.6;
 }
 
@@ -556,5 +558,56 @@ li a:hover {
 	.pendidikan .item .image img {
 		width: 120px;
 		height: 80px;
+	}
+
+	/* PENGALAMAN */
+	.pengalaman {
+		padding: 20px 3%;
+	}
+
+	.pengalaman h1 {
+		font-size: 22px;
+	}
+
+	.pengalaman .subtitle {
+		font-size: 0.7rem;
+		text-align: center;
+	}
+
+	.pengalaman .item {
+		padding: 10px 12px;
+		margin-bottom: 10px;
+	}
+
+	.pengalaman .item .nomor {
+		flex: 0 0 30px;
+		height: 30px;
+		font-size: 12px;
+	}
+
+	.pengalaman .item .detail {
+		padding: 0 10px;
+	}
+
+	.pengalaman .item .detail h3 {
+		font-size: 0.8rem;
+	}
+
+	.pengalaman .item .detail .deskripsi {
+		font-size: 0.5rem;
+	}
+
+	.pengalaman .item .detail .instansi {
+		font-size: 0.6rem;
+	}
+
+	.pengalaman .item .durasi {
+		font-size: 11px;
+	}
+
+	.pengalaman .status-magang,
+	.pengalaman .status-project {
+		padding: 2px 6px;
+		font-size: 9px;
 	}
 }
