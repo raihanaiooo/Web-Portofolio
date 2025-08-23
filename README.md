@@ -43,7 +43,7 @@ Tujuannya adalah memberikan **kesan profesional dan mudah diakses** bagi calon k
 ## 🚀 Deploy
 Hasil akhir proyek bisa diakses melalui link berikut:  
 
-[🌐 Lihat Web Portofolio](#)  
+[🌐 Lihat Web Portofolio](https://raihana-portofolio.netlify.app/)  
 
 ---
 
@@ -54,6 +54,3 @@ Hasil akhir proyek bisa diakses melalui link berikut:
 
 ---
 
-
-```markdown
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue?style=flat-square)](#)
