@@ -54,6 +54,3 @@ Hasil akhir proyek bisa diakses melalui link berikut:
 
 ---
 
-
-```markdown
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue?style=flat-square)](#)
