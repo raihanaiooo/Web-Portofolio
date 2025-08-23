@@ -1,0 +1,52 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+	nav {
+		padding: 0 3%;
+	}
+
+	li a {
+		padding: 12px 25px;
+		font-size: 0.9rem;
+	}
+
+	nav ul {
+		justify-content: space-between;
+	}
+
+	/* HERO */
+	#hero {
+		height: 50vh;
+		padding: 0 3%;
+	}
+
+	#hero .biodata {
+		max-width: 50%;
+	}
+
+	#hero .nama {
+		font-size: 2.2rem;
+		margin-bottom: 15px;
+	}
+
+	#hero .deskripsi {
+		padding: 1px 3px;
+		font-size: 0.95rem;
+		text-align: justify;
+	}
+
+	#hero .foto-pribadi img {
+		max-width: 220px;
+		z-index: -10;
+	}
+
+	/* SKILL */
+	.skills {
+		gap: 10%;
+		padding: 8px 0;
+		font-size: 0.9rem;
+		margin-top: -0.5%;
+	}
+
+	.skills div {
+		padding: 5px;
+	}
+}
