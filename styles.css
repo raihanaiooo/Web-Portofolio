@@ -614,4 +614,21 @@ li a:hover {
 	}
 
 	/* PROJECT */
+	.project-item {
+		flex-direction: column;
+		text-align: center;
+		gap: 20px;
+	}
+
+	.project-item:nth-child(even) {
+		flex-direction: column; /* supaya nggak kebalik */
+	}
+
+	.project-image img {
+		max-width: 100%;
+	}
+
+	.project-text {
+		text-align: center;
+	}
 }
