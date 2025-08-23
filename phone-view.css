@@ -73,6 +73,12 @@
 		text-align: justify;
 	}
 
+	#hero .contact {
+		font-size: 0.5rem;
+		margin-top: 10px;
+		text-align: left;
+	}
+
 	/* SKILLS */
 	.skills {
 		gap: 5%;

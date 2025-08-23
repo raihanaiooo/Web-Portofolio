@@ -54,6 +54,7 @@ li a:hover {
 	display: flex;
 	align-items: center;
 	padding: 0 5%;
+	text-align: justify;
 }
 
 #hero .biodata {
@@ -84,6 +85,22 @@ li a:hover {
 	width: 100%;
 	max-width: 300px;
 	height: auto;
+}
+
+#hero .contact {
+	margin-top: 15px;
+	font-size: 1rem;
+	color: #333;
+}
+
+#hero .contact a {
+	color: #0077cc;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+#hero .contact a:hover {
+	text-decoration: underline;
 }
 
 /* SKILLS */
@@ -451,10 +468,6 @@ li a:hover {
 
 .social-links a.github:hover {
 	color: #333;
-}
-
-.social-links a.gmail:hover {
-	color: #d44638;
 }
 
 .social-links a.ig:hover {
