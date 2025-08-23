@@ -562,53 +562,59 @@ li a:hover {
 
 	/* PENGALAMAN */
 	.pengalaman {
-		padding: 20px 3%;
+		padding: 10px 3%;
 	}
 
 	.pengalaman h1 {
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	.pengalaman .subtitle {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		text-align: center;
-	}
-
-	.pengalaman .item {
-		padding: 10px 12px;
 		margin-bottom: 10px;
 	}
 
+	.pengalaman .item {
+		padding: 6px 8px;
+		margin-bottom: 6px;
+		gap: 8px;
+	}
+
 	.pengalaman .item .nomor {
-		flex: 0 0 30px;
-		height: 30px;
-		font-size: 12px;
+		flex: 0 0 24px;
+		height: 24px;
+		font-size: 11px;
 	}
 
 	.pengalaman .item .detail {
-		padding: 0 10px;
+		padding: 0 6px;
 	}
 
 	.pengalaman .item .detail h3 {
-		font-size: 0.8rem;
+		font-size: 0.65rem;
+		margin-bottom: 2px;
 	}
 
 	.pengalaman .item .detail .deskripsi {
-		font-size: 0.5rem;
+		font-size: 0.45rem;
+		line-height: 1.2;
 	}
 
 	.pengalaman .item .detail .instansi {
-		font-size: 0.6rem;
+		font-size: 0.55rem;
+		margin-bottom: 2px;
 	}
 
 	.pengalaman .item .durasi {
-		font-size: 11px;
+		font-size: 10px;
 	}
 
 	.pengalaman .status-magang,
 	.pengalaman .status-project {
-		padding: 2px 6px;
-		font-size: 9px;
+		padding: 1px 5px;
+		font-size: 8px;
+		margin: 2px 0;
 	}
 
 	/* PROJECT */
