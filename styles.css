@@ -621,7 +621,7 @@ li a:hover {
 	}
 
 	.project-item:nth-child(even) {
-		flex-direction: column; /* supaya nggak kebalik */
+		flex-direction: column;
 	}
 
 	.project-image img {
@@ -630,5 +630,62 @@ li a:hover {
 
 	.project-text {
 		text-align: center;
+	}
+
+	/* FOOTER */
+	.contact-footer {
+		padding: 40px 3% 20px;
+		height: 90vh;
+	}
+
+	.contact-footer h2 {
+		font-size: 1rem;
+		margin-bottom: 6px;
+	}
+
+	.contact-footer .subtitle {
+		font-size: 0.7rem;
+		margin-bottom: 25px;
+	}
+
+	.contact-form {
+		max-width: 80%;
+		margin: 0 auto 25px;
+	}
+
+	.contact-form .form-row {
+		gap: 10px;
+		margin-bottom: 12px;
+	}
+
+	.contact-form input,
+	.contact-form textarea {
+		padding: 8px 10px;
+		font-size: 12px;
+	}
+
+	.contact-form textarea {
+		min-height: 80px;
+		margin-bottom: 15px;
+	}
+
+	.send-btn {
+		font-size: 12px;
+		padding: 6px 18px;
+		border-radius: 20px;
+	}
+
+	.contact-form .note {
+		font-size: 10px;
+	}
+
+	.social-links a {
+		font-size: 12px;
+		margin: 0 6px;
+	}
+
+	.contact-footer .copyright {
+		font-size: 11px;
+		margin-top: 15px;
 	}
 }
