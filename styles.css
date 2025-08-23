@@ -449,8 +449,24 @@ li a:hover {
 	transition: color 0.3s ease;
 }
 
-.social-links a:hover {
-	color: #555;
+.social-links a.github:hover {
+	color: #333;
+}
+
+.social-links a.gmail:hover {
+	color: #d44638;
+}
+
+.social-links a.ig:hover {
+	color: #e1306c;
+}
+
+.social-links a.linkedin:hover {
+	color: #0a66c2;
+}
+
+.social-links a.whatsapp:hover {
+	color: #25d366;
 }
 
 .contact-footer .copyright {

@@ -6,7 +6,19 @@
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="stylesheet" href="phone-view.css" />
 		<link rel="stylesheet" href="tablet-view.css" />
+
 		<title>Raihana Aisha - Web Portofolio</title>
+
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+		></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init("x7xrTKExxovF-gPkj");
+			})();
+		</script>
+		<script src="email.js"></script>
 	</head>
 	<body>
 		<!-- HEADER -->
@@ -236,13 +248,15 @@
 				</p>
 
 				<!-- Contact Form -->
-				<form class="contact-form">
+				<form id="contact-form" class="contact-form">
 					<div class="form-row">
 						<input type="text" name="name" placeholder="Nama*" required />
 						<input type="email" name="email" placeholder="Email*" required />
 					</div>
 
 					<input type="text" name="company" placeholder="Nama perusahaan" />
+					<input type="hidden" name="title" value="Pesan Website" />
+					<input type="hidden" name="time" value="Sekarang" />
 
 					<textarea
 						name="message"
@@ -256,17 +270,30 @@
 
 				<!-- Sosmed -->
 				<div class="social-links">
-					<a href="https://github.com/raihanaiooo" target="_blank">GitHub</a>
-					<a href="https://github.com/raihanaiooo" target="_blank">Gmail</a>
-					<a href="https://www.instagram.com/raihnaaaz/" target="_blank"
+					<a
+						href="https://github.com/raihanaiooo"
+						target="_blank"
+						class="github"
+						>GitHub</a
+					>
+					<a href="https://github.com/raihanaiooo" target="_blank" class="gmail"
+						>Gmail</a
+					>
+					<a
+						href="https://www.instagram.com/raihnaaaz/"
+						target="_blank"
+						class="ig"
 						>Instagram</a
 					>
 					<a
 						href="https://www.linkedin.com/in/raihana-aisha-az-zahra/"
 						target="_blank"
+						class="linkedin"
 						>LinkedIn</a
 					>
-					<a href="https://wa.me/6282130308398" target="_blank">WhatsApp</a>
+					<a href="https://wa.me/6282130308398" target="_blank" class="whatsapp"
+						>WhatsApp</a
+					>
 				</div>
 
 				<p class="copyright">© 2024 Personal Portofolio</p>
