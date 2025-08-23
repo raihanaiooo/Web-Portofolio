@@ -1,9 +1,7 @@
 html {
 	scroll-behavior: smooth;
 }
-p {
-	text-align: justify;
-}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -297,7 +295,7 @@ li a:hover {
 	line-height: 1.6;
 }
 
-.item {
+.project-item {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -305,22 +303,20 @@ li a:hover {
 	margin-bottom: 60px;
 	text-align: left;
 }
-
-.item.reverse {
+.project-item:nth-child(even) {
 	flex-direction: row-reverse;
 }
-
-.item-image img {
+.project-image img {
 	width: 100%;
 	max-width: 500px;
 	border-radius: 8px;
 }
 
-.item-text {
+.project-text {
 	flex: 1;
 }
 
-.item-text .tag {
+.project-text .tag {
 	display: inline-block;
 	background: #000;
 	color: #fff;
@@ -331,14 +327,14 @@ li a:hover {
 	margin-bottom: 15px;
 }
 
-.item-text h3 {
+.project-text h3 {
 	font-size: 22px;
 	font-weight: 700;
 	color: #111;
 	margin-bottom: 15px;
 }
 
-.item-text .details {
+.project-text .details {
 	font-size: 14px;
 	font-weight: 500;
 	color: #000;
@@ -349,7 +345,7 @@ li a:hover {
 	transition: all 0.3s ease;
 }
 
-.item-text .details:hover {
+.project-text .details:hover {
 	color: #555;
 	transform: translateX(4px);
 }
